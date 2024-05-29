@@ -68,7 +68,7 @@ class ModeloClientes{
 
 
 	/*=============================================
-	EDITAR CLIENTE hola mundo
+	EDITAR CLIENTE hola mundo ya nos vamos a casar o neh
 	=============================================*/
 
 	static public function mdlEditarCliente($tabla, $datos){
