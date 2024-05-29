@@ -66,8 +66,9 @@ class ModeloClientes{
 
 	}
 
+
 	/*=============================================
-	EDITAR CLIENTE
+	EDITAR CLIENTE hola mundo
 	=============================================*/
 
 	static public function mdlEditarCliente($tabla, $datos){
