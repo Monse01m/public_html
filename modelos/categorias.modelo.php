@@ -62,7 +62,7 @@ class ModeloCategorias{
 	}
 
 	/*=============================================
-	EDITAR CATEGORIA
+	EDITAR CATEGORIA contesta si nos vamos a casar o neh
 	=============================================*/
 
 	static public function mdlEditarCategoria($tabla, $datos){
