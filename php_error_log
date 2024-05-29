@@ -1,0 +1,230 @@
+[24-Jul-2023 11:54:41 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\public_html\controladores\productos.controlador.php on line 51
+[25-Jul-2023 00:32:06 America/Mazatlan] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[25-Jul-2023 00:32:08 America/Mazatlan] PHP Warning:  copy(\\DESKTOP-1145PHU\58mm Series Printer): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[25-Jul-2023 00:32:08 America/Mazatlan] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-07-25...')
+#1 C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\public_html\controladores\ventas.controlador.php(215): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[25-Jul-2023 00:45:53 America/Mazatlan] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[25-Jul-2023 00:53:48 America/Mazatlan] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[25-Jul-2023 21:54:42 America/Mazatlan] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[25-Jul-2023 21:57:55 America/Mazatlan] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\public_html\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[27-Jul-2023 09:39:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 134
+[27-Jul-2023 09:40:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 134
+[27-Jul-2023 09:40:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 134
+[27-Jul-2023 09:40:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 134
+[27-Jul-2023 09:40:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 134
+[27-Jul-2023 09:54:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 166
+[27-Jul-2023 09:54:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 166
+[27-Jul-2023 09:54:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 171
+[27-Jul-2023 09:54:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 171
+[27-Jul-2023 09:55:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 171
+[27-Jul-2023 09:57:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 170
+[27-Jul-2023 09:58:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 170
+[27-Jul-2023 09:58:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 170
+[27-Jul-2023 09:58:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 170
+[27-Jul-2023 00:58:47 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 137
+[27-Jul-2023 00:58:47 America/Mazatlan] PHP Warning:  require_once(factura-ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 00:58:47 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'factura-ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:139
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 01:03:09 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 137
+[27-Jul-2023 01:03:09 America/Mazatlan] PHP Warning:  require_once(C:
+mpp\htdocs\public_htmlxtensiones	cpdf\pdfactura-ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 01:03:09 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'C:
+mpp\htdocs\public_htmlxtensiones	cpdf\pdfactura-ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:139
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 01:03:54 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 137
+[27-Jul-2023 01:03:54 America/Mazatlan] PHP Warning:  require_once(extensiones	cpdf\pdfactura-ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 01:03:54 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'extensiones	cpdf\pdfactura-ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:139
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 01:04:34 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 137
+[27-Jul-2023 01:04:34 America/Mazatlan] PHP Warning:  require_once(extensiones	cpdf\pdfactura-ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 01:04:34 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'extensiones	cpdf\pdfactura-ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:139
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 139
+[27-Jul-2023 10:09:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 172
+[27-Jul-2023 10:09:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 172
+[27-Jul-2023 01:09:28 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:09:28 America/Mazatlan] PHP Warning:  require_once(C:\xampp\htdocs\public_html\controladores/factura-ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:09:28 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\public_html\controladores/factura-ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:09:30 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:09:30 America/Mazatlan] PHP Warning:  require_once(C:\xampp\htdocs\public_html\controladores/factura-ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:09:30 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\public_html\controladores/factura-ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:10:10 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:10:10 America/Mazatlan] PHP Warning:  require_once(extensiones	cpdf\pdf	icket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:10:10 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'extensiones	cpdf\pdf	icket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:10:37 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:10:37 America/Mazatlan] PHP Warning:  require_once(extensiones	cpdf\pdf	icket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:10:37 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'extensiones	cpdf\pdf	icket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:12:22 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:12:22 America/Mazatlan] PHP Warning:  require_once(../../../extensiones/tcpdf/pdf/ticket.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:12:22 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required '../../../extensiones/tcpdf/pdf/ticket.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:16:22 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:16:22 America/Mazatlan] PHP Warning:  require_once(../../../extensiones	cpdf	icket-new.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:16:22 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required '../../../extensiones	cpdf	icket-new.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:16:59 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:16:59 America/Mazatlan] PHP Warning:  require_once(../../../extensiones/tcpdf/ticket-new.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:16:59 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required '../../../extensiones/tcpdf/ticket-new.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:21:15 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:21:15 America/Mazatlan] PHP Warning:  require_once(C:\xampp\htdocs\public_html\controladores/../../../extensiones/tcpdf/pdf/ticket-new.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:21:15 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\public_html\controladores/../../../extensiones/tcpdf/pdf/ticket-new.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:22:59 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:22:59 America/Mazatlan] PHP Warning:  require_once(../../extensiones/tcpdf/pdf/ticket-new.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:22:59 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required '../../extensiones/tcpdf/pdf/ticket-new.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:24:59 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\public_html\vistas\plantilla.php:6) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 138
+[27-Jul-2023 01:24:59 America/Mazatlan] PHP Warning:  require_once(../../extensiones/tcpdf/ticket-new.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 01:24:59 America/Mazatlan] PHP Fatal error:  Uncaught Error: Failed opening required '../../extensiones/tcpdf/ticket-new.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:140
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 140
+[27-Jul-2023 10:42:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 132
+[27-Jul-2023 10:42:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 132
+[27-Jul-2023 01:42:31 America/Mazatlan] PHP Fatal error:  Uncaught Error: Call to undefined function generarYAbrirPDF() in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:134
+Stack trace:
+#0 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#1 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 134
+[27-Jul-2023 01:44:23 America/Mazatlan] PHP Fatal error:  Cannot redeclare generarYAbrirPDF() (previously declared in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:118) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 166
+[27-Jul-2023 01:44:52 America/Mazatlan] PHP Fatal error:  Cannot redeclare generarYAbrirPDF() (previously declared in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:118) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 166
+[27-Jul-2023 10:49:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 181
+[27-Jul-2023 01:52:52 America/Mazatlan] PHP Fatal error:  Cannot redeclare generarYAbrirPDF() (previously declared in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php:118) in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 166
+[27-Jul-2023 10:56:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 175
+[27-Jul-2023 11:50:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 180
+[02-Aug-2023 22:58:13 America/Mazatlan] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'serie' cannot be null in C:\xampp\htdocs\public_html\modelos\ventas.modelo.php:57
+Stack trace:
+#0 C:\xampp\htdocs\public_html\modelos\ventas.modelo.php(57): PDOStatement->execute()
+#1 C:\xampp\htdocs\public_html\controladores\ventas.controlador.php(139): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\public_html\vistas\modulos\crear-venta.php(308): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\public_html\modelos\ventas.modelo.php on line 57
+[03-Aug-2023 08:24:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\public_html\modelos\ventas.modelo.php on line 162
+[03-Aug-2023 08:29:06 Europe/Berlin] PHP Warning:  Undefined array key "serie" in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 322
+[03-Aug-2023 08:41:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 386
+[03-Aug-2023 08:41:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 419
+[03-Aug-2023 08:41:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 429
+[03-Aug-2023 08:41:14 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 433
+[03-Aug-2023 08:41:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 460
+[03-Aug-2023 08:41:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\public_html\controladores\ventas.controlador.php on line 465
+[07-Aug-2023 08:41:38 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 76 in C:\xampp\htdocs\public_html\vistas\modulos\menu.php on line 188
+[07-Aug-2023 08:42:00 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 76 in C:\xampp\htdocs\public_html\vistas\modulos\menu.php on line 189
+[08-Aug-2023 09:28:34 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\public_html\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\public_html\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\public_html\vistas\modulos\productos.php(307): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\productos.controlador.php on line 40
+[08-Aug-2023 09:28:38 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\public_html\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\public_html\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\public_html\vistas\modulos\productos.php(307): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\public_html\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\public_html\index.php(26): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\public_html\controladores\productos.controlador.php on line 40
