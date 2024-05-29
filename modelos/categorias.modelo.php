@@ -5,7 +5,7 @@ require_once "conexion.php";
 class ModeloCategorias{
 
 	/*=============================================
-	CREAR CATEGORIA
+	CREAR CATEGORIA prubea 1
 	=============================================*/
 
 	static public function mdlIngresarCategoria($tabla, $datos){
